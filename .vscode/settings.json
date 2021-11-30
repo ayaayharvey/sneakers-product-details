@@ -1,0 +1,17 @@
+{
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  "html.format.wrapAttributes": "auto",
+  "html.format.wrapLineLength": 0,
+  "html.format.enable": true,
+
+  "editor.tabSize": 2,
+  "editor.suggestSelection": "first",
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+
+  "prettier.jsxBracketSameLine": true,
+  "prettier.printWidth": 80
+}
