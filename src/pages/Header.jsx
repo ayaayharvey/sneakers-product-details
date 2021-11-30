@@ -33,7 +33,7 @@ const Header = () => {
               </div>
               <div className="">
                 <div className="flex items-center">
-                  <span className="hover:text-primary-dark cursor-pointer transition-all">
+                  <span className="hover:text-primary-dark cursor-pointer transition-all w-5">
                     {shopIcon}
                   </span>
                   <img
