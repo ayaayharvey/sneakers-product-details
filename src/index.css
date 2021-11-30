@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html,
+body {
+  overflow-x: hidden;
+}
 .swiper-button-prev {
   color: #facb30 !important;
 }
@@ -18,4 +22,26 @@
 .swiper-pagination-bullet-active {
   color: #fff;
   background: #facb30 !important;
+}
+.custom-indicator {
+  position: relative !important;
+  width: 100% !important;
+}
+.slick-dots {
+  bottom: -20px !important;
+  width: 100% !important;
+}
+.slick-dots li {
+  width: 100px !important;
+  height: 100px !important;
+}
+.custom-indicator img {
+  width: 100px;
+  height: 100px;
+}
+.slick-dots li.slick-active #image-border {
+  border: 3px solid hsl(26, 100%, 55%);
+}
+.slick-dots li.slick-active img {
+  opacity: 30%;
 }

@@ -17,6 +17,12 @@ module.exports = {
       transitionProperty: {
         spacing: "margin, padding",
       },
+      height: {
+        100: "30rem",
+      },
+      width: {
+        100: "30rem",
+      },
     },
     zIndex: {
       100: 100,
